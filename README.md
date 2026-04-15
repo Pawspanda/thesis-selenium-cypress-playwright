@@ -20,8 +20,8 @@ Each folder contains its own 'package.json' and frameworks specific configuratio
 
 install dependencies separately in each framework folder:
 
-´´´bash
-cd cypress
+```bash
+cd ../cypress
 npm install
 
 cd ../playwright
@@ -29,19 +29,20 @@ npm install
 
 cd ../Selenium
 npm install
+```
 
 ---
 
 ## Running Test in Headless Mode
 
 Cypress
-npx cypress run
+```npx cypress run```
 
 Playwright
-npx playright test
+```npx playright test```
 
 Selenium
-npm test 
+```npm test```
 
 ---
 
