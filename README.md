@@ -8,9 +8,9 @@ This project evalated the framework based on predefined criteria such as efficie
 
 ## Project Strcuture
 
--'/cypress' - Cypress test scripts and setup
--'/playwright' - Playwright test scripts and setup
--'/selenium' - Selenium test scripts and setup
+- '/cypress' - Cypress test scripts and setup
+- '/playwright' - Playwright test scripts and setup
+- '/selenium' - Selenium test scripts and setup
 
 Each folder contains its own 'package.json' and frameworks specific configurations.
 
@@ -20,13 +20,14 @@ Each folder contains its own 'package.json' and frameworks specific configuratio
 
 install dependencies separately in each framework folder:
 
+´´´bash
 cd cypress
-npm intall
+npm install
 
 cd ../playwright
 npm install
 
-cd --/Selenium
+cd ../Selenium
 npm install
 
 ---
