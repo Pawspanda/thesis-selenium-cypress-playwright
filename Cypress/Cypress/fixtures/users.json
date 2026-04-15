@@ -1,0 +1,10 @@
+{
+  "validUser": {
+    "username": "practice",
+    "password": "SuperSecretPassword!"
+  },
+  "newUser": {
+    "username": "Happyuser",
+    "password": "NewSecretPassword!"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha tests/*.test.js --timeout 60000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "exceljs": "^4.4.0",
+    "mocha": "^11.7.5",
+    "mocha-repeat": "^0.1.0",
+    "mochawesome": "^7.1.4",
+    "selenium-webdriver": "^4.41.0"
+  }
+}
